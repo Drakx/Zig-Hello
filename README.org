@@ -1,0 +1,24 @@
+#+TITLE: README
+#+DATE: 25-05-2024
+
+* Example of using Zig (0.12.0) with C/C++ files
+
+This repo contains a very simple example of using C/C++ within Zig
+
+** Example usage
+*** Test
+#+begin_src shell
+zig bulid test --summary all
+#+end_src
+*** Run
+#+begin_src shell
+zig build run --summary all
+#+end_src
+*** Build
+#+begin_src shell
+zig bulid --summary all
+#+end_src
+**** Run the build
+#+begin_example
+./zig-out/bin/helloworld
+#+end_example
